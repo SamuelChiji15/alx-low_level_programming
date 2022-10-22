@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  * print_line - prints straight line n times.
  * @n: times straight line is printed.
- * Return: no return.
+ * Return: no return
  */
 void print_line(int n)
 {
@@ -11,7 +10,6 @@ void print_line(int n)
 
 	for (i = 0; i < n; i++)
 	{
-		_putchar(95);
+	_putchar(95);
 	}
-	putchar('\n');
-}
+	_putchar('\n');
