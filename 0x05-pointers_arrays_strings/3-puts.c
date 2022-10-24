@@ -14,7 +14,7 @@ void _puts(char *str)
 	{
 		if (str[count] == '\n')
 		{
-			_putchar('\n);
+			_putchar('\n');
 			break;
 		}
 		_putchar(str[count]);
