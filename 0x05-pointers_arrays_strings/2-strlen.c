@@ -3,16 +3,15 @@
 /**
  * _strlen - returns the length of a string
  * @s: string
- * Return: length
+ * Return: length of string
  */
 
 int _strlen(char *s)
 {
-	int len + 0;
+	int counter;
 
-	while (*s != '
-	len++;
-	s++;
-	}
-	return (len);
+	for (counter = 0; *s != '\0'; ++s)
+		++counter;
+
+	return (counter);
 }
